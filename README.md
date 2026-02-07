@@ -6,7 +6,7 @@
 [![Code Style](https://img.shields.io/badge/Code%20Style-Black-black.svg)](https://black.readthedocs.io/)
 [![Tests](https://img.shields.io/badge/Tests-Pytest-blue.svg)](https://pytest.org/)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -19,7 +19,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This project implements state-of-the-art deep learning models for Vietnamese sentiment analysis using the **VLSP 2016 Vietnamese Sentiment Analysis** dataset. The project is designed with MLOps best practices, including automated testing, CI/CD pipelines, and comprehensive documentation.
 
@@ -32,7 +32,7 @@ This project implements state-of-the-art deep learning models for Vietnamese sen
 - **CI/CD Pipeline**: Automated testing and deployment workflows
 - **Professional Documentation**: Detailed API documentation and usage examples
 
-## 🚀 Features
+## Features
 
 ### Model Architectures
 - **CNN Classifier**: Convolutional Neural Network for text classification
@@ -52,7 +52,7 @@ This project implements state-of-the-art deep learning models for Vietnamese sen
 - **Code Quality**: Black formatting, flake8 linting, and type hints
 - **Documentation**: Comprehensive API documentation and tutorials
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -92,7 +92,7 @@ pre-commit install
 pip install -e .
 ```
 
-## 🎮 Usage
+## Usage
 
 ### Quick Experiment
 
@@ -150,7 +150,7 @@ result = trainer.train_evaluate_pipeline(
 )
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 vietnamese-sentiment-analysis/
@@ -189,7 +189,7 @@ vietnamese-sentiment-analysis/
 └── README.md                 # This file
 ```
 
-## 🤖 Models
+## Models
 
 ### CNN Classifier
 - **Architecture**: Convolutional Neural Network with multiple filter sizes
@@ -211,7 +211,7 @@ vietnamese-sentiment-analysis/
 - **Features**: Pre-trained on Vietnamese text corpus
 - **Performance**: 50.10% accuracy on VLSP 2016
 
-## 📊 Results
+## Results
 
 ### Model Performance Comparison
 
@@ -227,7 +227,7 @@ vietnamese-sentiment-analysis/
 - **Hybrid models** show competitive performance
 - **Transformer models** may need more Vietnamese-specific pre-training
 
-## 🛠️ Development
+## Development
 
 ### Running Tests
 
@@ -266,7 +266,7 @@ cd docs
 make html
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -289,11 +289,11 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Add unit tests for new features
 
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - VLSP 2016 dataset providers
 - PhoBERT and PhoW2Vec authors
